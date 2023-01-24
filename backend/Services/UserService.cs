@@ -15,7 +15,7 @@ namespace backend.Services
 
         public async Task<User> GetAsync(UserLogin userLogin)
         {
-            User? user = await _db.Users.FirstOrDefaultAsync(o => o.UserName.Equals(userLogin.UserName,StringComparison.OrdinalIgnoreCase) && o.Password.Equals(userLogin.Password));
+            User? user = await _db.Users.FirstOrDefaultAsync(o => o.UserName.Equals(userLogin.UserName) && o.Password.Equals(userLogin.Password));
 
             return user!;
         }

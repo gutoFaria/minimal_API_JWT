@@ -37,15 +37,6 @@ namespace backend.Services
             return await _db.Posts.ToListAsync()!;
         }
 
-        public async Task<IEnumerable<Post>> GetAllPostByName(string categoryName)
-        {
-            var posts = await _db.Posts.Where(c => (c.Category.CategoryName.Equals(categoryName,StringComparison.OrdinalIgnoreCase))).ToListAsync();
-            if(posts == null)
-                return null!;
-                
-            return posts;
-        }
-
         public async Task<Post> GetPostById(int id)
         {
             var post = await _db.Posts.FindAsync(id);

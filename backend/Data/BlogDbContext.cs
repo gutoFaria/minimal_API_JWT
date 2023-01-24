@@ -23,12 +23,12 @@ namespace backend.Data
                 },
                 new 
                 {
-                    Id = 2,
+                    CategoryId = 2,
                     CategoryName = "Inovação"
                 },
                 new 
                 {
-                    Id = 3,
+                    CategoryId = 3,
                     CategoryName = "Curiosidades"
                 }
             );
@@ -36,20 +36,22 @@ namespace backend.Data
             modelBuilder.Entity<User>().HasData(
                 new 
                 {
+                    Id = 1,
                     UserName = "guto_admin",
                     EmailAddress = "guto.admin@email.com",
                     Password = "guto_12345",
-                    GiceName="Guto",
+                    GiveName="Guto",
                     SurName ="Faria",
                     Role ="Administrator"
                 },
 
                 new 
                 {
+                    Id = 2,
                     UserName = "tah_standard",
                     EmailAddress = "tah@email.com",
                     Password = "tah_12345",
-                    GiceName="tah",
+                    GiveName="tah",
                     SurName ="sw",
                     Role ="Standard"
                 }

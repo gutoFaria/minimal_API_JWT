@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\simple_Blog_dotnetAPI_and_ReactJs\\backend\\backend.csproj": {}
+    "C:\\simple_Blog_dotnetAPI_and_ReactJs\\backend\\backend.csproj": {}
   },
   "projects": {
-    "c:\\simple_Blog_dotnetAPI_and_ReactJs\\backend\\backend.csproj": {
+    "C:\\simple_Blog_dotnetAPI_and_ReactJs\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\simple_Blog_dotnetAPI_and_ReactJs\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\simple_Blog_dotnetAPI_and_ReactJs\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "c:\\simple_Blog_dotnetAPI_and_ReactJs\\backend\\backend.csproj",
+        "projectPath": "C:\\simple_Blog_dotnetAPI_and_ReactJs\\backend\\backend.csproj",
         "packagesPath": "C:\\Users\\guto\\.nuget\\packages\\",
-        "outputPath": "c:\\simple_Blog_dotnetAPI_and_ReactJs\\backend\\obj\\",
+        "outputPath": "C:\\simple_Blog_dotnetAPI_and_ReactJs\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,6 +25,8 @@
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,9 +63,17 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.26.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.26.0, )"
             }
           },
           "imports": [

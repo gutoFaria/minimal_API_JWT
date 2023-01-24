@@ -4,6 +4,6 @@ namespace backend.Models
     {
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }  = String.Empty;
-        public List<Post>? Posts { get; set; }
+        public List<Post> Posts { get; set; } = new List<Post>();
     }
 }
