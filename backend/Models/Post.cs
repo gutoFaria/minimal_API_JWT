@@ -10,6 +10,6 @@ namespace backend.Models
 
         // Relation
         public int CategoryId { get; set; }
-        public Category? Category { get; set; }
+        public Category Category { get; set; } = new Category();
     }
 }
